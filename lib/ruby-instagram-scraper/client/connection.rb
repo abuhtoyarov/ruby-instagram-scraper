@@ -12,7 +12,6 @@ module Service1c
       def request(http_method, path, options)
         # { __a: 1 } is JSON response
         options.merge!({ __a: 1 })
-        path = URI.parse(URI.encode(path))
 
         response = self.class.send(http_method, path, { query: options })
         response.parsed_response
