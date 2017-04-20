@@ -1,0 +1,24 @@
+PATH
+  remote: .
+  specs:
+    ruby-instagram-scraper (0.1.8)
+      httparty
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    httparty (0.14.0)
+      multi_xml (>= 0.5.2)
+    multi_xml (0.6.0)
+    rake (12.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler
+  rake
+  ruby-instagram-scraper!
+
+BUNDLED WITH
+   1.14.6
